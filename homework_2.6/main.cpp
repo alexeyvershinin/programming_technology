@@ -11,60 +11,60 @@ int main() {
 
     // Проверка на високосный год
     if (y % 4 == 0) {
-        printf("You were born in a leap year");
+        printf("You were born in a leap year\n");
     } else {
-        printf("Your year of birth is not a leap year");
+        printf("Your year of birth is not a leap year\n");
     }
 
     // Проверка года по восточному календарю
     switch (y % 12) {
         case 0: {
-            printf("You were born in the year of the monkey");
+            printf("You were born in the year of the monkey\n");
         }
             break;
         case 1: {
-            printf("You were born in the year of the rooster");
+            printf("You were born in the year of the rooster\n");
         }
             break;
         case 2: {
-            printf("You were born in the year of the dog");
+            printf("You were born in the year of the dog\n");
         }
             break;
         case 3: {
-            printf("You were born in the year of the pig");
+            printf("You were born in the year of the pig\n");
         }
             break;
         case 4: {
-            printf("You were born in the year of the rat");
+            printf("You were born in the year of the rat\n");
         }
             break;
         case 5: {
-            printf("You were born in the year of the bull");
+            printf("You were born in the year of the bull\n");
         }
             break;
         case 6: {
-            printf("You were born in the year of the tiger");
+            printf("You were born in the year of the tiger\n");
         }
             break;
         case 7: {
-            printf("You were born in the year of the rabbit");
+            printf("You were born in the year of the rabbit\n");
         }
             break;
 
         case 8: {
-            printf("You were born in the year of the dragon");
+            printf("You were born in the year of the dragon\n");
         }
             break;
         case 9: {
-            printf("You were born in the year of the snake");
+            printf("You were born in the year of the snake\n");
         }
             break;
         case 10: {
-            printf("You were born in the year of the horse");
+            printf("You were born in the year of the horse\n");
         }
             break;
         case 11: {
-            printf("You were born in the year of the goat");
+            printf("You were born in the year of the goat\n");
         }
             break;
     }
