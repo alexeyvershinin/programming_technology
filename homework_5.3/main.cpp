@@ -16,12 +16,12 @@ int main() {
 
     for (int j = 0; j < n; j++) {
         for (int i = 0; i < m; i++) {
-            array[j][i] = rand() % 10 - 2;
+            array[j][i] = rand() % 10 - 2; //генерируем случайное число в диапазоне от -2 до 7
         }
     }
     for (int j = 0; j < n; j++) {
         for (int i = 0; i < m; i++) {
-            printf("%3i", array[j][i]); //генерируем случайное число в диапазоне от -2 до 7
+            printf("%3i", array[j][i]);
         }
         printf("\n\n");
     }
